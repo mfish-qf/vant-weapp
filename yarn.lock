@@ -8158,10 +8158,10 @@ istanbul-reports@^3.0.2:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
-j-component@^1.4.4:
-  version "1.4.4"
-  resolved "https://registry.npmjs.org/j-component/-/j-component-1.4.4.tgz#f9b46db2fe67b57b6637e70b007d9d9504a89553"
-  integrity sha512-slXAVngICuOjd2DEVgFAWWD/rxxvXesKgCk+lkXuea/v2yOm+2lUK+nk0Ruml6l5EoI6D36nKC+Z7cav4poOiw==
+j-component@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/j-component/-/j-component-1.4.6.tgz#e533399addea268aadb00876a2357c8c59a8b43c"
+  integrity sha512-yKugOAw8LmalSC9mFXsFf+q5WRUvqaeA0lnOiUJiBhyBCJGhbSLAqyfYv3+u5TQtQVVUrB691ocyJUNIuYkcmA==
   dependencies:
     expr-parser "^1.0.0"
     miniprogram-api-typings "^3.2.2"
@@ -10011,12 +10011,12 @@ miniprogram-exparser@2.15.0:
   integrity sha512-W6aS1R3oVTwYw5hPguRqICFqx3wk2dtPAcwT6269WeWRjuQslbVPZRW/nlN16bg0NM5eQFmfU49PM6/PQ5DE8w==
 
 miniprogram-simulate@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.npmjs.org/miniprogram-simulate/-/miniprogram-simulate-1.4.2.tgz#6a1c21432df830900979dc1e512bb55676f003a2"
-  integrity sha512-eJ21rTum/3mXPCPAsZvxrvXosidPdAEIv8WhutJC9eO5YT9fyxDDMxbSH3kvo0AujCDlQ+f+Z8uKWJeEZZYa9Q==
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/miniprogram-simulate/-/miniprogram-simulate-1.4.4.tgz#0d2f73c2181b6edc14bf477ee0cefadf5afb07db"
+  integrity sha512-CRbnmiBw1o2yUYtA39W8pErRiHWX2l+rA/BDGplXEXm/DqZQnVpNlNLf/ndiGluy6HnPfwWp9Rmc1q8feZUqFg==
   dependencies:
     csso "^3.5.1"
-    j-component "^1.4.4"
+    j-component "^1.4.6"
     less "^3.10.3"
     miniprogram-compiler latest
     postcss "^7.0.23"
@@ -11182,16 +11182,7 @@ postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0:
   resolved "https://registry.npm.taobao.org/postcss-value-parser/download/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
 
-postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.6:
-  version "7.0.36"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
-  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
-  dependencies:
-    chalk "^2.4.2"
-    source-map "^0.6.1"
-    supports-color "^6.1.0"
-
-postcss@^7.0.23:
+postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.23, postcss@^7.0.26, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.6:
   version "7.0.39"
   resolved "https://registry.npmjs.org/postcss/-/postcss-7.0.39.tgz#9624375d965630e2e1f2c02a935c82a59cb48309"
   integrity sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==
@@ -12653,13 +12644,6 @@ supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz?cache=0&sync_timestamp=1598611849430&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsupports-color%2Fdownload%2Fsupports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
-  dependencies:
-    has-flag "^3.0.0"
-
-supports-color@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.npm.taobao.org/supports-color/download/supports-color-6.1.0.tgz?cache=0&sync_timestamp=1598611849430&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsupports-color%2Fdownload%2Fsupports-color-6.1.0.tgz#0764abc69c63d5ac842dd4867e8d025e880df8f3"
-  integrity sha1-B2Srxpxj1ayELdSGfo0CXogN+PM=
   dependencies:
     has-flag "^3.0.0"
 
