@@ -43,7 +43,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
     "@types/jest": "^27.0.2",
-    "@vant/cli": "^4.0.0-beta.7",
+    "@vant/cli": "^5.1.0",
     "@vant/icons": "^1.7.1",
     "@vue/compiler-sfc": "^3.2.13",
     "gulp": "^4.0.2",
